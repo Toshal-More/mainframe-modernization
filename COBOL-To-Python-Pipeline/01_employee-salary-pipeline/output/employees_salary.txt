@@ -1,0 +1,15 @@
+===========================================================================
+                          EMPLOYEE SALARY REPORT                           
+                     COBOL TO PYTHON PIPELINE PROJECT                      
+===========================================================================
+EMP ID    EMPLOYEE NAME  WORKING HRS    WORKING RATE   SALARY      
+E00001    Ramesh Patil          160            50.75          8120.00     
+E00002    Priya Sharma          185            52.50          9712.50     
+E00003    Akash Mehta           200            48.00          9600.00     
+E00004    Sunita Desai          155            51.00          7905.00     
+E00005    Ravi Nair             225            60.00          13500.00    
+E00006    Deepika Joshi         170            43.25          7352.50     
+E00007    Anil Kulkarni         195            55.50          10822.50    
+E00008    Meena Iyer            165            54.00          8910.00     
+E00009    Suresh Bhat           210            58.75          12337.50    
+E00010    Kavita Reddy          180            49.75          8955.00     
