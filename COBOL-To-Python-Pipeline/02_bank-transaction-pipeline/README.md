@@ -108,8 +108,8 @@ python src/parser.py
 
 ## 🔮 Future Enhancements
 
-- [ ] Load transactions into SQLite database
-- [ ] Export results to CSV
+- [X] Load transactions into SQLite database
+- [X] Export results to CSV
 - [ ] Flag overdraft accounts where NEW_BALANCE is negative
 - [ ] Add transaction date field
 - [ ] Add EBCDIC decoding for real mainframe files
