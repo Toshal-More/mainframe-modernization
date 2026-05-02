@@ -98,8 +98,8 @@ python src/parser.py
 
 ## 🔮 Future Enhancements
 
-- [ ] Load data into SQLite database
-- [ ] Export results to CSV
+- [X] Load data into SQLite database
+- [X] Export results to CSV
 - [ ] Add EBCDIC decoding for real mainframe files
 
 <<<<<<< HEAD
