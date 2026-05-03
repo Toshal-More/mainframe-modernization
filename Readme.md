@@ -80,17 +80,18 @@ E00003    Akash Mehta                200           48.00         9600.00
 ```
 ✅ Phase 1 → Flat file to Text Report
 ✅ Phase 2 → Flat file to SQLite Database
-⏳ Phase 3 → CSV Export
-⏳ Phase 4 → Streamlit Dashboard
+✅ Phase 3 → CSV Export
+🔄 Phase 4 → Streamlit Dashboard
+⏳ Phase 5 → AWS S3 Cloud Integration
 ```
 
-**Tech used:** `Python` `SQLite` `Git` `GitHub`
+**Tech used:** `Python` `SQLite` `CSV` `Git` `GitHub`
 
 ---
 
 ### Project 02 — Bank Transaction Pipeline
 
-**Description:** Reads a bank transaction flat file, processes Credit and Debit transactions, stores data in SQLite and generates a formatted transaction report with updated balances.
+**Description:** Reads a bank transaction flat file, processes Credit and Debit transactions, stores data in SQLite, exports to CSV and generates a formatted transaction report with updated balances.
 
 **Copybook Layout:**
 
@@ -126,11 +127,12 @@ AC000003    Vikram Shah            CR      10000.00     250000.00     260000.00
 ```
 ✅ Phase 1 → Flat file to Text Report
 ✅ Phase 2 → Flat file to SQLite Database
-⏳ Phase 3 → CSV Export
-⏳ Phase 4 → Streamlit Dashboard
+✅ Phase 3 → CSV Export
+🔄 Phase 4 → Streamlit Dashboard
+⏳ Phase 5 → AWS S3 Cloud Integration
 ```
 
-**Tech used:** `Python` `SQLite` `Git` `GitHub`
+**Tech used:** `Python` `SQLite` `CSV` `Git` `GitHub`
 
 ---
 
@@ -142,8 +144,8 @@ AC000003    Vikram Shah            CR      10000.00     250000.00     260000.00
 | SQLite | Local database integration | ✅ In use |
 | Git | Version control | ✅ In use |
 | GitHub | Code hosting and portfolio | ✅ In use |
-| CSV | Data export format | ⏳ Coming soon |
-| Streamlit | Dashboard visualization | ⏳ Coming soon |
+| CSV | Data export format | ✅ In use |
+| Streamlit | Dashboard visualization | 🔄 In Progress |
 | AWS S3 | Cloud integration | ⏳ Coming soon |
 
 ---
@@ -154,8 +156,8 @@ AC000003    Vikram Shah            CR      10000.00     250000.00     260000.00
 |-------|-------------|--------|
 | Phase 1 | Flat file to Text Report | ✅ Completed |
 | Phase 2 | SQLite Database Integration | ✅ Completed |
-| Phase 3 | CSV Export | ⏳ In Progress |
-| Phase 4 | Streamlit Dashboard | ⏳ Planned |
+| Phase 3 | CSV Export | ✅ Completed |
+| Phase 4 | Streamlit Dashboard | 🔄 In Progress |
 | Phase 5 | Cloud Integration (AWS S3) | ⏳ Planned |
 
 ---
