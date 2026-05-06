@@ -38,7 +38,9 @@ E00003Akash Mehta           020004800
 
 ```
 employees.dat → format_IP() → calculate_salary() → write_report() → employees_salary.txt
-   (input)        (parse)         (logic)              (output)
+   (input)        (parse)         (logic)              (output)      
+                                                  → Employee.db       (SQLite)
+                                                  → employees_salary.csv (CSV)
 ```
 
 | Python Function      | COBOL Equivalent               |
@@ -78,11 +80,16 @@ E00003    Akash Mehta                200           48.00         9600.00
 # Navigate into this project
 cd COBOL-To-Python-Pipeline/01_employee-salary-pipeline
 
-# Run the pipeline
+# Run Phase 1 - Text Report
 python src/parser.py
 
-# Check the output
-# Open output/employees_salary.txt
+# Run Phase 2 - SQLite Database
+python src/db_loader.py
+
+# Run Phase 3 - CSV Export
+python src/csv_export.py
+
+# Check the output folder for all generated files
 ```
 
 ---
@@ -93,17 +100,17 @@ python src/parser.py
 - Implied decimal handling — `PIC 9(3)V99` to Python float
 - Structured report generation — header and detail pattern
 - Function based design — each function mirrors a COBOL paragraph
+- SQLite database integration — INSERT and SELECT operations
+- CSV export using Python built in `csv` module
 
 ---
 
 ## 🔮 Future Enhancements
 
-- [X] Load data into SQLite database
-- [X] Export results to CSV
+- [x] Load data into SQLite database
+- [x] Export results to CSV
+- [ ] Upload to Cloudflare R2 Cloud Storage
+- [ ] Power BI Dashboard
 - [ ] Add EBCDIC decoding for real mainframe files
 
-<<<<<<< HEAD
 ---
-=======
----
->>>>>>> a8b4db5ca129be916af3e9765710adf6383ddabb
