@@ -114,8 +114,4 @@ python src/parser.py
 - [ ] Add transaction date field
 - [ ] Add EBCDIC decoding for real mainframe files
 
-<<<<<<< HEAD
 ---
-=======
----
->>>>>>> a8b4db5ca129be916af3e9765710adf6383ddabb
