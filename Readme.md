@@ -145,7 +145,7 @@ AC000003    Vikram Shah            CR      10000.00     250000.00     260000.00
 | Git | Version control | ✅ In use |
 | GitHub | Code hosting and portfolio | ✅ In use |
 | CSV | Data export format | ✅ In use |
-| Streamlit | Dashboard visualization | 🔄 In Progress |
+| Power BI | Dashboard visualization | ⏳ Planned |
 | AWS S3 | Cloud integration | ⏳ Coming soon |
 
 ---
@@ -157,8 +157,8 @@ AC000003    Vikram Shah            CR      10000.00     250000.00     260000.00
 | Phase 1 | Flat file to Text Report | ✅ Completed |
 | Phase 2 | SQLite Database Integration | ✅ Completed |
 | Phase 3 | CSV Export | ✅ Completed |
-| Phase 4 | Streamlit Dashboard | 🔄 In Progress |
-| Phase 5 | Cloud Integration (AWS S3) | ⏳ Planned |
+| Phase 4 | Cloud Integration (Cloudflare R2) | ⏳ Planned |
+| Phase 5 | Power BI Dashboard | ⏳ Planned |
 
 ---
 
