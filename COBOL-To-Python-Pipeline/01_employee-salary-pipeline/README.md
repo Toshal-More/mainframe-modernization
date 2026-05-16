@@ -109,8 +109,8 @@ python src/csv_export.py
 
 - [x] Load data into SQLite database
 - [x] Export results to CSV
-- [ ] Upload to Cloudflare R2 Cloud Storage
-- [ ] Power BI Dashboard
+- [X] Upload to Cloudflare R2 Cloud Storage
+- [X] Power BI Dashboard
 - [ ] Add EBCDIC decoding for real mainframe files
 
 ---
